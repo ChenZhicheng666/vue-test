@@ -1,0 +1,131 @@
+/* 左中右 三栏自适应
+========================================================================== */
+.bd-3-lr { zoom: 1; overflow: hidden; padding-left: 490px; padding-right: 490px; }
+
+.bd-3-lr .main { float: left; width: 100%; }
+
+.bd-3-lr .aside-1 { float: left; width: 460px; margin-left: -100%; position: relative; left: -490px; _left: 490px; /*IE6 hack*/ }
+
+.bd-3-lr .aside-2 { float: left; width: 460px; margin-left: -460px; position: relative; right: -490px; }
+
+.clearfix { zoom: 1; }
+.clearfix:after, .clearfix:before { content: ""; display: table; }
+.clearfix:after { clear: both; overflow: hidden; }
+
+body {
+    background: url("../../img/fronts/bg-sky.png") center top;
+    min-height: 100vh;
+}
+
+#Datav {
+    box-sizing: border-box;
+    /*background-color: #060b32;*/
+    padding: 0 40px 0;
+    color: #fff;
+}
+
+h1#top-title.industry-2 {
+    /*background: url("../../img/fronts/page-title-3.png") no-repeat center top;*/
+    /*width: 1920px;*/
+    height: 87px;
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+h1#top-title {
+    margin: 0 auto;
+    color: #fff;
+    background: url("../../img/fronts/page-title-2.png") no-repeat center top;
+    /*width: 1920px;*/
+    height: 87px;
+    padding-top: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    /*font-size: 30px;*/
+    letter-spacing: 3px;
+    margin-bottom: -10px;
+}
+h1#top-title span,
+h1#top-title img {
+    vertical-align: middle;
+}
+h1#top-title img {
+    margin-right: 10px;
+}
+
+#china-map {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 460px;
+}
+.box .title {
+    width: 450px;
+    margin: 0 auto;
+}
+.box .title h2 {
+    font-size: 16px;
+    color: #fff;
+    padding: 2px 8px 2px 15px;
+    margin: 0;
+}
+.box .title h2 img.icon {
+    float: right;
+    width: 159px;
+    vertical-align: middle;
+}
+.box h2 p {
+    margin: 0;
+    line-height: 22px;
+}
+.box h2 p .fat {
+    margin-left: 15px;
+}
+.box .content {
+    box-sizing: border-box;
+    background: url("../../img/fronts/bg-box-2-30.png") no-repeat center top;
+    width: 460px;
+    height: 282px;
+    padding: 14px;
+}
+
+.box.lang .title {
+    width: 800px;
+}
+.box.lang .content {
+    background: url("../../img/fronts/bg-center.png") no-repeat center top;
+    width: 780px;
+    height: 282px;
+}
+
+.w-838 {
+    width: 838px;
+    height: 260px;
+}
+.w-432 {
+    width: 432px;
+    height: 259px;
+}
+
+
+.box.tall .content {
+    /*background: url("../../img/fronts/bg-box-1.png") no-repeat center top;*/
+    width: 460px;
+    height: 628px;
+}
+
+.tag {
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #04979c;
+    color: #58d3d6;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 11px 0 0 34px;
+
+}
